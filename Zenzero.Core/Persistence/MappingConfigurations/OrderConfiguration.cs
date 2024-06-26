@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Zenzero.Core.Models;
 
-namespace Zenzero.Core.Persistence.MappingConfigurations
+namespace Zenzero.Core.Persistence
 {
     internal sealed class OrderConfiguration : IEntityTypeConfiguration<Order>
     {
